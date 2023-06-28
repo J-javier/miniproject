@@ -2,25 +2,33 @@
     display: flex;
     flex-direction: column;
     width: 395px ; 
-    
+    margin: 1rem .5rem 0 4rem;
+    border: 2px solid black;
+    flex-wrap: wrap;
 }
 
+
+.containerOne{
+    width:391px;
+    height: 265px; 
+}
+
+.containerOne > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 
 .containerTwo{
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    justify-content: space-between;
 }
 
 .containerThree{
     display: flex;
     flex-direction: row;
     gap: .4rem;
-    justify-content: flex-end;
     
 }
 
-.imagen{
-    width:"395px";
-    height:"269px"
-}
