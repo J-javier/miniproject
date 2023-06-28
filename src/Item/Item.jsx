@@ -13,20 +13,20 @@ function Item() {
             <img src={bicho} alt="photos"  width="395px" height="269px" className='imagen'/>
         </section>
         <section className='containerTwo'>
-            <div>{type_room[0]}</div>
-            <div>{descrip[0]}</div>
-            <div>beds 2 </div>
+            <div className='type'>{type_room[0]}</div>
+            <div className='grey'>{descrip[0]}</div>
+            <div className='grey'>beds 2 </div>
         <section className='containerThree'>
-            <div>
+            <div className='rango'>
                 <img src={star} alt="Star" />
             </div>
             <div>
-                <p>rate</p>
+                <p className='rango'>rate</p>
             </div>
         </section>
         </section>
         <section className='containerFour'>
-            <p>Description here bla bla bla </p>
+            <p className='greyTwo'>Description here bla bla bla </p>
         </section>
     </div>
     </>
